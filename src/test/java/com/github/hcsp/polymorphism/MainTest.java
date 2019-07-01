@@ -12,7 +12,7 @@ public class MainTest {
         Shape rect = new Rectangle(1d, 2d);
         Assertions.assertEquals(2d, rect.getArea());
 
-        Shape circle = new Circle(1d);
+        Shape circle = new Circle(2d);
         Assertions.assertEquals(Math.PI, circle.getArea());
     }
 }
