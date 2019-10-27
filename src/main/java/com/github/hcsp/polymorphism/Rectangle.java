@@ -1,8 +1,6 @@
 package com.github.hcsp.polymorphism;
 
-import java.math.BigDecimal;
-
-public class Rectangle extends Shape{
+public class Rectangle {
     // 长方形的长
     private double a;
     // 长方形的宽
@@ -11,10 +9,5 @@ public class Rectangle extends Shape{
     public Rectangle(double a, double b) {
         this.a = a;
         this.b = b;
-    }
-
-    @Override
-    public double getArea() {
-        return a * b;
     }
 }
