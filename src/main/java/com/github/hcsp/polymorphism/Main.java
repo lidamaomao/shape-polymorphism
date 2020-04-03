@@ -11,4 +11,5 @@ public class Main {
             System.out.println("" + shape.getClass().getSimpleName() + "的面积是：" + shape.getArea());
         }
     }
+
 }
