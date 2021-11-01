@@ -7,9 +7,8 @@ public class Main {
     // 子类覆盖父类求面积的多态方法getArea()
     public static void main(String[] args) {
         Shape[] shapes = new Shape[] {new Square(1.0), new Rectangle(1.0, 2.0), new Circle(1.0)};
-        for (Shape s : shapes) {
-            System.out.println("" + s.getClass().getSimpleName() + "的面积是：" + s.getArea());
+        for (Shape shape : shapes) {
+            System.out.println("" + shape.getClass().getSimpleName() + "的面积是：" + shape.getArea());
         }
     }
 }
-
