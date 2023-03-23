@@ -1,16 +1,13 @@
 package com.github.hcsp.polymorphism;
 
-public class Rectangle extends Shape {
+public class Rectangle {
     // 长方形的长
-    private final double a;
+    private double a;
     // 长方形的宽
-    private final double b;
+    private double b;
 
     public Rectangle(double a, double b) {
         this.a = a;
         this.b = b;
-    }
-    public double getArea() {
-        return a * b;
     }
 }
